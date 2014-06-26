@@ -66,7 +66,7 @@ tomcat::install { 'weittor.com-tomcat':
 `source`
 
 源安装文件。
-仅支持`.tar.gz`格式。
+仅支持*.tar.gz*格式。
 
 默认为: **apache-tomcat-7.0.50.tar.gz**
 
@@ -88,14 +88,14 @@ tomcat::install { 'weittor.com-tomcat':
 `default_webapp_docs`
 
 默认default_webapp_docs状态。   
-可选参数；"present" or "absent".
+可选参数；"present" or "absent"。
 
 Default: **present**
 
 `default_webapp_examples`
 
-默认default_webapp_examples状态。      
-可选参数："present" or "absent".
+默认default_webapp_examples状态。          
+可选参数："present" or "absent"。
 
 Default: **present**
 
@@ -114,10 +114,10 @@ Default: **present**
 
 #测试
 
-系统版本： RHEL6\CentOS6
+系统版本： RHEL6\CentOS6             
 Puppet版本：Puppet 3.4.x. on RHEL6
 
 #Fork
-翻译测试：www.weittor.com
+翻译测试：www.weittor.com           
 原作者：7terminals
 
